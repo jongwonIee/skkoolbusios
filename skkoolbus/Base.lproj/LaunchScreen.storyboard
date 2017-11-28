@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,28 +20,37 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="skkbus_ic_lion" translatesAutoresizingMaskIntoConstraints="NO" id="MOm-Rw-2KJ">
-                                <rect key="frame" x="131" y="212" width="153" height="185"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skkbus_ic_skkuniv" translatesAutoresizingMaskIntoConstraints="NO" id="ieg-ZE-RVa">
+                                <rect key="frame" x="111" y="567.5" width="153" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="153" id="MPH-Br-OuL"/>
+                                    <constraint firstAttribute="height" constant="32" id="vZk-ZB-VKU"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="skkbus_ic_skkuniv" translatesAutoresizingMaskIntoConstraints="NO" id="ieg-ZE-RVa">
-                                <rect key="frame" x="131" y="634" width="153" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skkbus_ic_lion" translatesAutoresizingMaskIntoConstraints="NO" id="MOm-Rw-2KJ">
+                                <rect key="frame" x="107.5" y="143.5" width="160" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="cUg-E8-ces"/>
+                                    <constraint firstAttribute="height" constant="180" id="w1j-Ab-mgx"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.54509803921568623" green="0.68235294117647061" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.54509803921568623" green="0.68235294117647061" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="MOm-Rw-2KJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="33w-pk-ppY"/>
-                            <constraint firstItem="MOm-Rw-2KJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-63.5" id="cwO-tE-fzp"/>
+                            <constraint firstItem="ieg-ZE-RVa" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerYWithinMargins" constant="240" id="CyE-zf-SGO"/>
+                            <constraint firstItem="MOm-Rw-2KJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KD9-VX-bfk"/>
+                            <constraint firstItem="ieg-ZE-RVa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ReX-1M-Uuv"/>
+                            <constraint firstItem="MOm-Rw-2KJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-100" id="VuS-rd-PfW"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="50.724637681159422" y="374.18478260869568"/>
         </scene>
     </scenes>
     <resources>

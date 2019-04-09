@@ -7,7 +7,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let url = URL(string: "http://52.79.178.90")
+        let url = URL(string: "http://skkoolbus.com")
         myWebView.loadRequest(URLRequest(url: url!))
     }
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,31 +20,31 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skkbus_ic_skkuniv" translatesAutoresizingMaskIntoConstraints="NO" id="ieg-ZE-RVa">
-                                <rect key="frame" x="111" y="567.5" width="153" height="32"/>
+                                <rect key="frame" x="89" y="520" width="142" height="28"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="153" id="MPH-Br-OuL"/>
-                                    <constraint firstAttribute="height" constant="32" id="vZk-ZB-VKU"/>
+                                    <constraint firstAttribute="width" constant="142" id="MPH-Br-OuL"/>
+                                    <constraint firstAttribute="height" constant="28" id="vZk-ZB-VKU"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skkbus_ic_lion" translatesAutoresizingMaskIntoConstraints="NO" id="MOm-Rw-2KJ">
-                                <rect key="frame" x="107.5" y="143.5" width="160" height="180"/>
+                                <rect key="frame" x="100" y="184" width="120" height="140"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="cUg-E8-ces"/>
-                                    <constraint firstAttribute="height" constant="180" id="w1j-Ab-mgx"/>
+                                    <constraint firstAttribute="width" constant="120" id="cUg-E8-ces"/>
+                                    <constraint firstAttribute="height" constant="140" id="w1j-Ab-mgx"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.54509803921568623" green="0.68235294117647061" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.54509803921568623" green="0.68235294117647061" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.40000000000000002" green="0.58431372549019611" blue="0.090196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ieg-ZE-RVa" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerYWithinMargins" constant="240" id="CyE-zf-SGO"/>
                             <constraint firstItem="MOm-Rw-2KJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KD9-VX-bfk"/>
                             <constraint firstItem="ieg-ZE-RVa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ReX-1M-Uuv"/>
-                            <constraint firstItem="MOm-Rw-2KJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-100" id="VuS-rd-PfW"/>
+                            <constraint firstItem="MOm-Rw-2KJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-30" id="VuS-rd-PfW"/>
                         </constraints>
                     </view>
                 </viewController>
